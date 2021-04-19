@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TwoBytes</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+         font-family: Gotham Rounded Book;
+         src: url(font/Gotham\ Rounded\ Book.otf);}
+         @font-face {
+         font-family: Gotham Rounded Medium;
+         src: url(font/Gotham\ Rounded\ Medium.otf);}
+    </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="nav">
+                    <div class="logo">
+                        <p>two<b>bytes</b></p>
+                        <span>consulting</span>
+                    </div>
+                    <ul class="menu">
+                        <li>home</li>
+                        <li>about us</li>
+                        <li>jobs</li>
+                        <li>clients</li>
+                        <li>employers</li>
+                        <li>contact us</li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <h1>I'm looking for ...</h1>
+
+                    <div class="search-field">
+                        <input type="search" name="search" id="search" class="btn"
+                            placeholder="Enter a Job Description" autofocus>
+                        <button type="submit" class="btn">
+                            <img src="image/search_icon.png">
+                            Search
+                        </button>
+                    </div>
+
+                    <div class="search-checkboxes">
+                        <label for="emp-ft-id">
+                            <input type="checkbox" name="employment-ft" id="emp-ft-id">
+                            Full time
+                        </label>
+                        <label for="emp-pt-id">
+                            <input type="checkbox" name="employment-pt" id="emp-pt-id">
+                            Part Time / Casual / Freelance
+                        </label>
+                        <input type="text" class="btn" name="location" id="location" list="loc" 
+                            placeholder="Select your Location">
+                        <datalist id="loc">
+                            <option value="MSC">MSC</option>
+                            <option value="Zcity">Zcity</option>
+                            <option value="SPB">SPB</option>
+                        </datalist>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="intro">
+                <div class="container">
+                    <h2>We're leaders in</h2>
+                    <h1>Creative Digital Recruitment</h1>
+                    <hr noshade="" size="5px" width="138px" color="#4acaff">
+                    <p>Based in Surry Hills, the creative hub of Sydney we are 
+                        surrounded by creativity and thar reflects on the type 
+                        of jobs we recruit for.</p>
+                    <button class="btn find-more">find out more about us!</button>
+                </div>
+            </div>
+
+            <div class="subscribe">
+                <div class="container">
+                    <p>Subscribe to our Job Seeker Mailing List</p>
+                    <input type="email" name="email" id="email" class="subscribe__e-mail"
+                    placeholder="Enter Your Email Address">
+                </div>
+            </div>
+        </main>
+
+        <footer>
+
+            <div class="footer__container">
+                <div class="footer__content">
+                    <a class="footer__link" href="#">
+                        <img src="image/mail-blue_icon.png">
+                        hello@twobytes.com.au
+                    </a>
+                    <p class="footer__copyright">
+                        Copyright © 2014 Two Bytes Consulting. 
+                        <a class="footer__link" href="#">
+                            Terms & Policies.
+                        </a>
+                    </p>
+                </div>
+
+                <div class="footer__counter">
+                    <form class="form__tweeter" action="#">
+                        <button class="social tweetter">
+                            <img src="image/Twitterbird.png" alt="tweet">
+                            Tweet
+                        </button>
+                        <input type="number" class="social"
+                        name="tweet" id="tw" value="692">
+                    </form>
+                    <form class="form__facebook" action="#">
+                        <button class="social facebook">
+                            <img src="image/Facebook.png" alt="FB">
+                            Like
+                        </button>
+                        <input type="number"  class="social"
+                        name="like" id="fb" value="117">
+                    </form>
+                </div>
+
+            </div>
+
+        </footer>
+    </body>
+</html>
